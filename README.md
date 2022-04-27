@@ -1,4 +1,4 @@
-# ros2_react_teleop
+# ros2_web_teleop
 
 ## Dependencies
 
@@ -16,15 +16,14 @@ $ cd ~/ros2_ws
 $ colcon build
 ```
 
+```shell
+pip3 install -r requirements.txt
+```
+
 ## Usage
 
 ```shell
-# 1 shell
-$ ros2 launch rosbridge_server rosbridge_websocket_launch.xml
-
-# 2 shell
-$ ros2 run web_video_server web_video_server
-
-# 3 shell
-$ npm start
+$ ros2 launch web_teleop teleop.launch.py
 ```
+
+http://localhost:5000/
