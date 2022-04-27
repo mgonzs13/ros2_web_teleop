@@ -17,16 +17,16 @@ function App() {
         alignItems: "center",
       }}
     >
-      <figure>
-        <RosConnect url="ws://localhost:9090" autoconnect timeout={2000}>
-          <Publisher
-            name="/cmd_vel"
-            type="geometry_msgs/msg/Twist"
-            rate={10.0}
-            queue_size={1}
-            message={twistMsg}
-          />
+      <RosConnect url="ws://localhost:9090" autoconnect timeout={2000}>
+        <Publisher
+          name="/cmd_vel"
+          type="geometry_msgs/msg/Twist"
+          rate={10.0}
+          queue_size={1}
+          message={twistMsg}
+        />
 
+        <figure>
           <ImageDisplay
             host="http://localhost"
             port={8080}
@@ -36,8 +36,8 @@ function App() {
             height={480}
             width={640}
           />
-        </RosConnect>
-      </figure>
+        </figure>
+      </RosConnect>
 
       <Joystick
         size={100}

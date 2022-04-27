@@ -1,5 +1,5 @@
 {
-  "name": "ros2_react_teleop",
+  "name": "ros2_web_teleop",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
