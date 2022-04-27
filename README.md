@@ -1,6 +1,6 @@
 # ros2_web_teleop
 
-This is a simple web teleop app created using rosbridge_server, web_video_server and roslib-reactjs.
+This is a simple web teleop app for ROS 2 (Foxy). 
 
 ## Dependencies
 
