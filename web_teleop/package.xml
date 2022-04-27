@@ -12,6 +12,12 @@
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
 
+  <depend>rosbridge_library</depend>
+  <depend>rosbridge_msgs</depend>
+  <depend>rosbridge_server</depend>
+  <depend>rosbridge_suite</depend>
+  <depend>web_video_server</depend>
+
   <export>
     <build_type>ament_cmake</build_type>
   </export>
