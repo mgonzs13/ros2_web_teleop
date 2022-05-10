@@ -6,7 +6,7 @@ This is a simple web teleop app for ROS 2 (Foxy).
 
 ```shell
 $ cd ~/ros2_ws/src
-$ git@github.com:mgonzs13/ros2_web_teleop.git
+$ git clone --recurse-submodules git@github.com:mgonzs13/ros2_web_teleop.git
 $ cd ros2_web_teleop
 $ pip3 install -r requirements.txt
 $ cd ~/ros2_ws
