@@ -1,0 +1,4 @@
+[submodule "web_video_server"]
+	path = web_video_server
+	url = ../web_video_server.git
+	branch = ros2
